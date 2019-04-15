@@ -5,10 +5,10 @@ import requests
 import requests_oauthlib
 
 # Replace the values below with your relevant TWITTER Credentials
-ACCESS_TOKEN = '2588737064-Rrf6bipN6ScsQKa0PLJNdItgYKecw0hiOS9RycG'
-ACCESS_SECRET = 'pYgU0ofmaVAefXgG8taK04T9JMv0KRKNXvjbtPMGDH4Sv'
-CONSUMER_KEY = 'rFu2LTWV4fgxiIsLIS4rkIrn9'
-CONSUMER_SECRET = 'SClUZ8dnmMK12LifCReZEcEZwBgL7R4QpuIT3fHVV0VE7VCu7S'
+ACCESS_TOKEN = 'aaa'
+ACCESS_SECRET = 'bbb'
+CONSUMER_KEY = 'ccc'
+CONSUMER_SECRET = 'ddd'
 TCP_IP = "localhost"
 TCP_PORT = 9009
 

@@ -1,5 +1,5 @@
-# Spark-with-Kibana-and-twitter-streaming.
-Querying Data from Twitter using Twitter API Sending Data Streams into Spark and perform data processing using Spark Streaming Pushing the processed data on live Dashboard
+# TwitterStreaming
+Fetching live tweets from twitter using Twitter API.
 # Real Time Data Streaming with Spark: Twitter Hashtag Count Analysis
 
 ## Project Flow
@@ -86,7 +86,7 @@ http://127.0.0.1:9200/twitter/_search?pretty=true
 
 ### Create a virtual environment
   `$ virtualenv ve --no-site-packages`
-### Acrtivate virtual environment
+### Activate virtual environment
   `$ source ve/bin/activate`
 ### Install pyspark (spark-2.2.0)
   `$ pip install -r REQUIREMENTS`
@@ -98,7 +98,7 @@ $ cp jars/elasticsearch-spark-20_2.11-5.5.0.jar ve/lib/python/site-packages/pysp
 ### Run "twitterfetch_app.py" to get tweets
 $ python twitterfetch_app.py
 
-### Run "twitterfetch_app.py" to store data in spark RDD and transfer it to elasticsearch
+### Run "sparkstreams_app.py" to store data in spark RDD and transfer it to elasticsearch
 $ python sparkstreams_app.py
 
 ### Spark UI
